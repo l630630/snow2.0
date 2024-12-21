@@ -3,11 +3,11 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	background: rgb(119, 13, 13);
+	background: rgb(9, 122, 220);
 	background: radial-gradient(
 		circle,
-		rgba(119, 13, 13, 0.92) 64%,
-		rgba(0, 0, 0, 0.6) 100%
+		rgba(26, 97, 203, 0.92) 64%,
+		rgba(4, 95, 207, 0.37) 100%
 	);
 	overflow: hidden;
 }
@@ -38,7 +38,9 @@ canvas {
 	text-align: center;
 	font-size: 3em;
 	user-select: none;
-	background: url("../img/bg.png");
+	background: url(../img/jiaozi.jpg) ;
+	/* background: url("../img/bg.png"); */
+	background-color: skyblue;
 	-webkit-background-clip: text;
 	color: transparent;
 	animation: moveBg 15s linear infinite;
